@@ -1,8 +1,8 @@
 FROM node:16
 
-WORKDIR /usr/src/
+WORKDIR /usr/src
 
-COPY . /usr/src/
+COPY . .
 
 EXPOSE 5000
 
